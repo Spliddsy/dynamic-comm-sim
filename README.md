@@ -1,12 +1,9 @@
 # dynamic-comm-sim
 This collection of functions act as a blueprint for simulating complex wireless communication systems while minimizing headache. The basic process is this:
 Front-end:
--Change settings that apply to every experiment you want to conduct, including maximum number of tested
- frames, number of frames to be tested at a time, whether to improve endlessly, and so on.
--Set which experiment you want to focus on, whether you want it to render the figure or just simulate,
- and whether you want it to reload or not.
--Create the experiment setups you want to test (including different variables you want tested, x-range
- variable and values, system defaults, etc.).
+- Change settings that apply to every experiment you want to conduct, including maximum number of tested frames, number of frames to be tested at a time, whether to improve endlessly, and so on.
+- Set which experiment you want to focus on, whether you want it to render the figure or just simulate, and whether you want it to reload or not.
+- Create the experiment setups you want to test (including different variables you want tested, x-range variable and values, system defaults, etc.).
  
 Back-end:
 1. All needed system configurations are made automatically from the experimental setups given.
